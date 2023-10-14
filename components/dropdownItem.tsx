@@ -10,7 +10,7 @@ export default function Dropdown({
   onSelect,
 }: DropdownProps) {
   const classNames = `w-full py-3 px-4 whitespace-nowrap hover:bg-amber-500 transition-colors cursor-pointer rounded ${
-    isSelected && "bg-amber-200"
+    isSelected && "bg-amber-200 text-black"
   }`;
 
   return (
